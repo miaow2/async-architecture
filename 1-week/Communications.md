@@ -6,7 +6,7 @@
 | -------------------------- | ---------- | ----------- | ---------------------------------- | --------------------------------------- |
 | Create/Update/Delete User  | Async      | Auth        | TaskTracker, Accounting, Analytics | User data                               |
 | Create task                | Async      | TaskTracker | Accounting                         | Cost of task, task description, User id |
-| Close task                 | Async      | TaskTracker | Accounting                         | Cost of task, task description, User id |
+| Close task                 | Async      | TaskTracker | Accounting, Analytics              | Cost of task, task description, User id |
 | Assign task                | Async      | TaskTracker | Accounting                         | Cost of task, task description, User id |
 | Count bills at the day end | Async      | Accounting  | Accounting, Mail                   | User, amount of money                   |
 
